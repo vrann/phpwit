@@ -1,0 +1,25 @@
+{
+  "name": "vrann/phpwit",
+  "description": "PhpWit is the PHP SDK for Wit.ai.",
+  "type": "library",
+  "require": {
+    "monolog/monolog": "1.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.5.*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Eugene Tulika",
+      "email": "vranen@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Vrann\\PhpWit\\": "src"
+    }
+  },
+
+  "minimum-stability": "alpha"
+}
